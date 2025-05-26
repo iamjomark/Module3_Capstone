@@ -46,5 +46,6 @@ This project aims to:
 - Glossary: Travel Insurance.docx
 - Jupyter Notebook: M3_CS_Travel Insurance_Jonathan Mark H.ipynb
 - Saved Models Folder (with results): saved_models
+- streamlit app/web: streamlit_app.py
 
 
