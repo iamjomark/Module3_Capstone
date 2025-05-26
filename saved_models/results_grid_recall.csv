@@ -1,0 +1,13 @@
+,Best_Params,precision,recall,f1,f2,roc_auc,pr_auc,FN,FP,FN_Cost,FP_Cost,Total_Cost,CM
+XGBoost,"{'classifier__gamma': 0, 'classifier__learning_rate': 0.01, 'classifier__max_depth': 3, 'classifier__reg_alpha': 0, 'classifier__reg_lambda': 0, 'classifier__scale_pos_weight': 25}",0.015922053231939164,1.0,0.03134502923976608,0.07484361036639857,0.8532896953445479,0.07498923257861129,0,8282,0,414100,414100,"[[ 312 8282]
+ [   0  134]]"
+LGBM,"{'classifier__learning_rate': 0.01, 'classifier__num_leaves': 31, 'classifier__reg_alpha': 0, 'classifier__reg_lambda': 0, 'classifier__scale_pos_weight': 25}",0.0393028024606972,0.8582089552238806,0.07516339869281045,0.1660889659156557,0.8390898370609137,0.06469956093495766,19,2811,19000,140550,159550,"[[5783 2811]
+ [  19  115]]"
+LogReg,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}",0.054759467758444216,0.7985074626865671,0.1024904214559387,0.21485943775100402,0.8502925505125061,0.08509811040216007,27,1847,27000,92350,119350,"[[6747 1847]
+ [  27  107]]"
+BalancedRF,"{'classifier__max_depth': 5, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200, 'classifier__sampling_strategy': 'auto'}",0.07528641571194762,0.6865671641791045,0.13569321533923304,0.2616609783845279,0.857566368761267,0.08600275536851135,42,1130,42000,56500,98500,"[[7464 1130]
+ [  42   92]]"
+DecisionTree,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 3, 'classifier__min_samples_split': 2}",0.07521367521367521,0.6567164179104478,0.13496932515337423,0.25791324736225085,0.8351548633374899,0.06397310219949053,46,1082,46000,54100,100100,"[[7512 1082]
+ [  46   88]]"
+CatBoost,"{'classifier__auto_class_weights': 'None', 'classifier__depth': 4, 'classifier__l2_leaf_reg': 5, 'classifier__learning_rate': 0.01}",0.08394543546694648,0.5970149253731343,0.14719411223551057,0.2686366689053056,0.8481116641600005,0.0922918107446227,54,873,54000,43650,97650,"[[7721  873]
+ [  54   80]]"
